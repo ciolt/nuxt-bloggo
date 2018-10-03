@@ -4,7 +4,7 @@
       li(v-for='(page, index) in pages', :key='index')
         span.d-inline-block
           router-link.postlink(:to='page.path')
-            h2
+            h2.show-dark-arrow-on-hover
               | {{ page.frontmatter.title }} 
               small(v-if='page.frontmatter.publishdate') {{page.frontmatter.publishdate}}
               small(v-if='page.date')
@@ -12,6 +12,7 @@
                 | {{ page.date }}
               |  &nbsp;
               img(src='/assets/arrow-right.svg', class='inline-arrow')
+              img(src='/assets/arrow-right.dark.svg', class='inline-arrow-dark')
 </template>
 
 <script>

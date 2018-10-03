@@ -7,8 +7,23 @@
 
 .inline-arrow {
   display: inline-block;
+}
+
+.inline-arrow-dark {
+  display: none;
+}
+
+.inline-arrow, .inline-arrow-dark {
   height: 14.5px;
   vertical-align: baseline;
+}
+
+.show-dark-arrow-on-hover:hover .inline-arrow-dark {
+  display: inline-block;
+}
+
+.show-dark-arrow-on-hover:hover .inline-arrow {
+  display: none;
 }
 
 :root, html, body {
