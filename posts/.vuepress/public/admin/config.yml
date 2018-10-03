@@ -7,10 +7,20 @@ public_folder: "posts/.vuepress/dist/"
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
+    folder: "posts/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Time", name: "publish_time", widget: "datetime", required: true}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Publish Time", name: "date", widget: "datetime", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Show posts?", name: "showposts", widget: "boolean", default: false}
+      - {label: "Show all posts?", name: "all_posts", widget: "boolean", default: false}
+      - {label: "No duplicate title", name: "no_duplicate_title", widget: "boolean", default: true}
