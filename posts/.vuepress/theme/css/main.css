@@ -2,7 +2,13 @@
 
 :root, html, body, h1, h2, h3, h4, h5, h6, * {
   font-family: 'Krub', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.125rem !important;
+  font-size: 20.25px !important;
+}
+
+.inline-arrow {
+  display: inline-block;
+  height: 14.5px;
+  vertical-align: baseline;
 }
 
 :root, html, body {
@@ -173,5 +179,8 @@ a.selected:focus {
   }
   *, :root, body, h1, h2, h3, h4, h5, h6, html {
       font-size: 1rem !important;
+  }
+  .inline-arrow {
+    height: 12px;
   }
 }

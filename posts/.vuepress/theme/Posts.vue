@@ -10,7 +10,8 @@
               small(v-if='page.date')
                 span.shh -&nbsp;
                 | {{ page.date }}
-              |  &nbsp;🡪
+              |  &nbsp;
+              img(src='/assets/arrow-right.svg', class='inline-arrow')
 </template>
 
 <script>
