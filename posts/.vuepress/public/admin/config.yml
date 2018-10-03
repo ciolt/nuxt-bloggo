@@ -24,3 +24,4 @@ collections:
       - {label: "Show posts?", name: "showposts", widget: "boolean", default: false}
       - {label: "Show all posts?", name: "all_posts", widget: "boolean", default: false}
       - {label: "No duplicate title", name: "no_duplicate_title", widget: "boolean", default: true}
+      - {label: "Body", name: "body", widget: "markdown"}
