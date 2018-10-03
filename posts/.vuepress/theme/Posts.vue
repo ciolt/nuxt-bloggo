@@ -1,10 +1,10 @@
 <template lang="pug">
   .postslist
     ul
-      li(v-for='(page, index) in pages', :key='index')
+      li.show-dark-arrow-on-hover(v-for='(page, index) in pages', :key='index')
         span.d-inline-block
           router-link.postlink(:to='page.path')
-            h2.show-dark-arrow-on-hover
+            h2
               | {{ page.frontmatter.title }} 
               small(v-if='page.frontmatter.publishdate') {{page.frontmatter.publishdate}}
               small(v-if='page.date')
