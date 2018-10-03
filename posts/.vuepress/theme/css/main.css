@@ -165,3 +165,13 @@ a.selected:focus {
   outline: 1.5pt solid #ffb900 !important;
   outline-offset: 2pt;
 }
+
+@media (max-width: 700px) {
+  .sidesblock {
+      padding: 0 20px;
+      font-size: 16px !important;
+  }
+  *, :root, body, h1, h2, h3, h4, h5, h6, html {
+      font-size: 1rem !important;
+  }
+}
