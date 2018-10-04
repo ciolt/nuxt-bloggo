@@ -1,7 +1,7 @@
 ---
 title: the mistakes i made getting a job
 author: bryan
-date: 2018-10-04T01:01:00.000Z
+date: 2018-10-04T01:21:00.000Z
 ---
 ![angery think emojo](/images/2018-09-27-11_47_48.jpg)
 
@@ -29,13 +29,13 @@ cool, next they wanted me to complete this single-page app thing. it was a calen
 
 surprise; they liked it
 
-it went on to an interview with the ceo guy. i'll call him Jack. i think i still have the call recording from that, probably. it's somewhere in my dropbox account. it went well, we arranged on having an _unpaid _internship for the summer. i was naive, and i said sure. we went ahead, and i mistakenly signed all these legal documents with unreadable technocratic legalese jargon in it.
+it went on to an interview with the ceo guy. i'll call him Jack. i think i still have the call recording from that, probably. it's somewhere in my dropbox account. it went well, we arranged on having an _unpaid_ internship for the summer. i was naive, and i said sure. we went ahead, and i mistakenly signed all these legal documents with unreadable technocratic legalese jargon in it.
 
 ## Big Mistake #1: Not reading the legalese jargon.
 
 i'll come back to this one soon.
 
-yup so that was february. in the months between that and june, i received many internship opportunities from linkedin in my inbox - from companies like [Cyxtera ](https://www.cyxtera.com/)to Big Corpo like [Accenture](https://www.accenture.com/). guess what i did? apply? nah, i was confident that the opportunity at a small startup like Parasol would be promising, and so i ignored the offers. _i was literally receiving these offers about internship opportunities for 2 months straight and did nothing about it._
+yup so that was february. in the months between that and june, i received many internship opportunities from linkedin in my inbox - from companies like [Cyxtera](https://www.cyxtera.com/) to Big Corpo like [Accenture](https://www.accenture.com/). guess what i did? apply? nah, i was confident that the opportunity at a small startup like Parasol would be promising, and so i ignored the offers. _i was literally receiving these offers about internship opportunities for 2 months straight and did nothing about it._
 
 ## Big Mistake #2: Sticking to self pride and being closed-minded.
 
@@ -51,9 +51,9 @@ there were daily standup calls, which i did not like. it was over skype, which i
 
 there were people on linkedin who were listed as having worked for Parasol before. i could've very easily gotten in touch and asked how the company worked and the like. i didn't. neither did i look into the company background, or registration papers - none of that. i could've really gotten a taste of what to expect had i done that.
 
-back to story time. i was tasked to work on fixing this feedback button. the CSS on the website was an incompetent mess, but i worked around it anyway. i fixed the feedback button - it was all just a minor issue with the CSS media queries. I did fix the problem, and did it in such a way that nothing else broke. after a few days, Jack commented on the GitLab issue. **the Jack CEO man did not like the changes. **supposedly i changed the button's behavior in some drastic, major way (all I did was change 760px to 360px in the width breakpoints).
+back to story time. i was tasked to work on fixing this feedback button. the CSS on the website was an incompetent mess, but i worked around it anyway. i fixed the feedback button - it was all just a minor issue with the CSS media queries. I did fix the problem, and did it in such a way that nothing else broke. after a few days, Jack commented on the GitLab issue. **the Jack CEO man did not like the changes.** supposedly i changed the button's behavior in some drastic, major way (all I did was change 760px to 360px in the width breakpoints).
 
-earlier that week, i came home exhausted from school and passed out on my bed. that wasn't fun, it was a great nap though. i wake up and realize that i missed the standup call that tuesday (remember that the "mandatory" one is on wednesdays), and afterwards The Jack** **got really mad about this. on that GitLab issue, after I clarified that I didn't somehow magically ruin the button, he began to lie that I'm "lazy" for missing out on the team call \[that "isn't mandatory"] and for "barely" completing a single issue within a week at Parasol.
+earlier that week, i came home exhausted from school and passed out on my bed. that wasn't fun, it was a great nap though. i wake up and realize that i missed the standup call that tuesday (remember that the "mandatory" one is on wednesdays), and afterwards **The Jack** got really mad about this. on that GitLab issue, after I clarified that I didn't somehow magically ruin the button, he began to lie that I'm "lazy" for missing out on the team call \[that "isn't mandatory"] and for "barely" completing a single issue within a week at Parasol.
 
 overall, a very rude guy.
 
