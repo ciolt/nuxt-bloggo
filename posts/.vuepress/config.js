@@ -1,6 +1,6 @@
 module.exports = {
   title: '[bloggo]',
-  description: 'weddescribethes  site',
+  description: 'the creative melting pot of ideas from the team at Cyberscape',
   themeConfig: {
     docsDir: 'posts',
     repo: 'ciolt/nuxt-bloggo',
