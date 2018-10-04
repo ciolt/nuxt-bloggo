@@ -199,3 +199,9 @@ a.selected:focus {
     height: 12px;
   }
 }
+
+.post img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}

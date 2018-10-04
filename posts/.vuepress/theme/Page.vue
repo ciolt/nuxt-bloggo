@@ -6,7 +6,7 @@
       //-   span.shh :&nbsp;
       | {{ $page.title }} 
       small(v-if='lastUpdated')
-        span.shh -&nbsp;
+        span.shh - 
         | {{ lastUpdated }}
     Content(:custom='true')
     p.faded(v-if='$page.frontmatter.author != null')

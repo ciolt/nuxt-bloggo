@@ -8,7 +8,7 @@
               | {{ page.frontmatter.title }} 
               small(v-if='page.frontmatter.publishdate') {{page.frontmatter.publishdate}}
               small(v-if='page.date')
-                span.shh -&nbsp;
+                span.shh - 
                 | {{ page.date }}
               |  &nbsp;
               img(src='/assets/arrow-right.svg', class='inline-arrow')
