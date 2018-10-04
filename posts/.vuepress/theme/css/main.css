@@ -73,17 +73,17 @@ body {
   background-color: #000000;
 }
 
-.post > h1 {
+.post h1 {
   line-height: 1.5;
   font-weight: 700;
   margin: 0 0 32px 0;
 }
 
-.post > small, .post > h1 small, .postslist h2 > small, .faded {
+.post small, .post h1 small, .postslist h2 > small, .faded {
   color: #888888;
 }
 
-.post > p + h2 {
+.post p + h2 {
   margin: 38px 0 18px 0;
 }
 
@@ -95,7 +95,7 @@ body {
   margin-left: -20px !important;
 } */
 
-.post > h2, .postslist h2 {
+.post h2, .postslist h2 {
   line-height: 1.5;
   font-weight: 700;
   color: #FFFFFF;
