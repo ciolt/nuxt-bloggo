@@ -3,7 +3,7 @@ title: the mistakes i made getting a job
 author: bryan
 date: 2018-10-04T01:01:00.000Z
 ---
-![angery think emojo](/posts/.vuepress/dist/2018-09-27-11_47_48.jpg)
+![angery think emojo](/images/2018-09-27-11_47_48.jpg)
 
 alright now that we're here, it's time to explain.
 
