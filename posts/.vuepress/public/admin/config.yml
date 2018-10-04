@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   repo: ciolt/nuxt-bloggo
   branch: master # Branch to update (optional; defaults to master)
-media_folder: "posts/.vuepress/public/images"
-public_folder: "posts/.vuepress/dist/"
+media_folder: "images/"
+public_folder: "images/"
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
