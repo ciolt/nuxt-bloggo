@@ -2,7 +2,7 @@
 showposts: false
 title: what is bloggo?
 no_duplicate_title: true
-author: ceo
+author: bryan
 ---
 
 we do stuff on the internet.
